@@ -63,7 +63,7 @@ button:focus {
   outline-style: solid;
 }
 
-/** Nav Styles **/
+/*Nav Styles */
 
 .main-head {
   background-color: #131c27;
@@ -97,7 +97,7 @@ nav ul {
   align-items: center;
 }
 
-/** Hero Section **/
+/*  Hero Section */
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.9), transparent), url('/img/landing-page.jpg');
