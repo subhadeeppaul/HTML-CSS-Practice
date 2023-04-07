@@ -4,3 +4,7 @@
 
 ![Website-Demo](https://github.com/subhadeeppaul/HTML-CSS-Practice/blob/main/Elena-Joy-Photography/Website-demo.gif)
 
+Landing Page for Professional Photographer avaiable for wedding and special events.
+
+>Inspired By DevEd
+
