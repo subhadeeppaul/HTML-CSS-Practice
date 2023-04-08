@@ -5,34 +5,12 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Ruhl";
-  src: url("/fonts/FrankRuhlLibre-Regular.ttf");
-}
-@font-face {
-  font-family: "Ruhl Medium";
-  src: url("/fonts/FrankRuhlLibre-Medium.ttf");
-}
-@font-face {
-  font-family: "Vibes";
-  src: url("/fonts/GreatVibes-Regular.ttf");
-}
 html {
   font-size: 62.5%;
-  --header1: calc(2rem + 1vw);
-  --header2: calc(3.5rem + 1vw);
-  --header3: calc(3rem + 1vw);
-  --header4: calc(2.4rem + 1vw);
-  --text: calc(1.5rem + 1vw);
-  --big: calc(6rem + 1vw);
-  --special-color: #906272;
-  --background-color: #414141;
-  --gray-text: #525252;
-  scroll-behavior: smooth;
 }
 
 h1 {
-  font-size: var(--header1);
+  font-size: 2.5rem;
 }
 
 li,
@@ -41,20 +19,20 @@ label,
 input,
 a,
 p {
-  font-size: var(--text);
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: var(--header2);
+  font-size: 4rem;
 }
 
 h3 {
-  font-size: var(--header3);
+  font-size: 2.5rem;
 }
 
 h4,
 h5 {
-  font-size: var(--header4);
+  font-size: 2rem;
 }
 
 ul {
@@ -63,5 +41,91 @@ ul {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #2c2c2c;
+}
+
+.main-head {
+  width: 95%;
+  margin: 0 0 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  min-height: 10vh;
+  width: 60%;
+  flex-wrap: wrap;
+}
+nav .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 10rem;
+}
+nav .logo h1 {
+  margin: 2rem;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  flex: 1 1 40rem;
+}
+
+.intro {
+  min-height: 90vh;
+  width: 90%;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.intro h2 {
+  font-size: 8rem;
+  padding-top: 2rem;
+  background: linear-gradient(left, #38d39f, #38a4d3);
+  -webkit-background-clip: text;
+          background-clip: text;
+  display: inline-block;
+}
+.intro h3 {
+  font-size: 3rem;
+  padding: 2rem 0rem;
+}
+.intro p {
+  padding-top: 2rem;
+  color: #2c2c2c;
+}
+
+.splash {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 100%;
+  z-index: -1;
+}
+
+.intro-social {
+  margin-top: 4rem;
+}
+.intro-social a {
+  margin-right: 5rem;
+}
+
+.active {
+  background: #2c2c2c;
+  color: white;
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+}
+
+.intro-text,
+.intro-images {
+  flex: 1 1 40rem;
 }/*# sourceMappingURL=style.css.map */
