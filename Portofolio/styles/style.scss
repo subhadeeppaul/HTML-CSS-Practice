@@ -1,4 +1,4 @@
-$header1 : 2.5rem;
+$header1: 2.5rem;
 $header2: 4rem;
 $header3: 2.5rem;
 $header4: 2rem;
@@ -13,6 +13,7 @@ $gray-text: #2c2c2c;
     align-items: $align;
     flex-direction: $direction;
 }
+
 
 @import "global";
 @import "intro";

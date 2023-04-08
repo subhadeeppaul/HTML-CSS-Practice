@@ -1,4 +1,4 @@
-/* Global Styles */
+/*Global styles*/
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +7,10 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -91,11 +95,11 @@ nav ul {
   padding-top: 2rem;
   background: linear-gradient(left, #38d39f, #38a4d3);
   -webkit-background-clip: text;
-          background-clip: text;
+  background-clip: text;
   display: inline-block;
 }
 .intro h3 {
-  font-size: 3rem;
+  font-size: 6rem;
   padding: 2rem 0rem;
 }
 .intro p {
@@ -128,4 +132,48 @@ nav ul {
 .intro-text,
 .intro-images {
   flex: 1 1 40rem;
+}
+
+#plant-right {
+  animation: plant 1.5s ease infinite alternate;
+}
+
+#plant-left {
+  animation: plant 1.5s ease infinite alternate 0.5s;
+}
+
+#me {
+  animation: me 1s ease infinite alternate;
+  transform-origin: bottom;
+}
+
+#clock-arrow {
+  animation: clock 1.5s infinite linear;
+  transform-box: fill-box;
+  transform-origin: bottom;
+}
+
+@keyframes me {
+  from {
+    transform: rotateZ(-5deg);
+  }
+  to {
+    transform: rotateZ(5deg);
+  }
+}
+@keyframes plant {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-30%);
+  }
+}
+@keyframes clock {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }/*# sourceMappingURL=style.css.map */
