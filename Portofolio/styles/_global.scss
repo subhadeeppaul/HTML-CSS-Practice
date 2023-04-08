@@ -1,14 +1,10 @@
-/*Global styles*/
+/*Global Styles*/
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
 
 html {
     font-size: 62.5%;
@@ -17,6 +13,10 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+
+/*rem only inherits from the page root html = 16px.
+Whatever size you use, it will always be relative to the root, so 1,5rem= 1,5 * 16px*/
 
 h1 {
     font-size: $header1;
