@@ -15,21 +15,70 @@ body {
   color: #555;
 }
 
-/* *************** */
+/* ---------------- */
 /* General REUSABLE Component */
-/* *************** */
+/* -------------*/
+.container{
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid--3-cols{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid--4-cols{
+    grid-template-columns: repeat(4,1fr);
+}
+
+.heading-primary,
+.heading-secondary{
+    font-weight: 700;
+    color: #333;
+    /* color: #45260a; */
+    /* color: #343a40; */
+    letter-spacing: -0.5px;
+
+}
 .heading-primary {
   font-size: 5.2rem;
-  font-weight: 700;
-  line-height: 1.05;
-  color: #333;
-  letter-spacing: -0.5px;
+    line-height: 1.05;
   margin-bottom: 3.2rem;
+}
+
+
+
+.heading-secondary{
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+}
+
+.subheading{
+display: block;
+font-size: 1.6rem;
+font-weight: 500;
+color: #cf711f;
+text-transform: uppercase;
+margin-bottom: 1.6rem;
+letter-spacing: 0.75px;
 }
 
 .btn:link,
 .btn:visited {
   display: inline-block;
+  background-color: #e67e22;
+  color: #fff;
   text-decoration: none;
   font-size: 2rem;
   font-weight: 600;
@@ -56,6 +105,7 @@ body {
   color: #555;
 }
 
+
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
@@ -70,10 +120,9 @@ body {
   margin-right: 1.6rem !important;
 }
 
-/* *************** */
+/* ----------------- */
 /* HEADER */
-/* *************** */
-
+/* --------------- */
 .header {
   display: flex;
   justify-content: space-between;
@@ -83,13 +132,15 @@ body {
   height: 9.6rem;
   padding: 0 4.8rem;
 }
+
 .logo {
   height: 2.2rem;
 }
 
-/* *************** */
+/* -------------- */
 /* Navigation */
-/* *************** */
+/* -------------- */
+
 .main-nav-list{
 list-style: none;
 display: flex;
@@ -126,15 +177,14 @@ gap: 3.2rem;
     background-color: #cf711f;
 }
 
-/* *************** */
+/* ----------------*/
 /* Hero Section */
-/* *************** */
+/* ----------------- */
 
 .section-hero {
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
-
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -145,15 +195,20 @@ gap: 3.2rem;
   align-items: center;
 }
 
+
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
 }
 
+
+
 .hero-img {
   width: 100%;
 }
+
+
 
 .delivered-meals {
   display: flex;
@@ -165,6 +220,7 @@ gap: 3.2rem;
 .delivered-imgs {
   display: flex;
 }
+
 .delivered-imgs img {
   height: 4.8rem;
   width: 4.8rem;
@@ -185,4 +241,16 @@ gap: 3.2rem;
 .delivered-text span {
   color: #cf711f;
   font-weight: 700;
+}
+
+/* ------------- */
+/* How it works section */
+/* ------------------ */
+
+.section-how{
+    padding: 9.6rem 0;
+}
+
+.step-img{
+    width: 50%;
 }
