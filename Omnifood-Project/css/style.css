@@ -316,9 +316,11 @@
 /* ------------------ */
 
 .section-testimonials {
-  padding: 9.6rem 0;
+  background-color: #fdf2e9;
 }
-
+.testimonials-container {
+  padding: 9.6rem;
+}
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
