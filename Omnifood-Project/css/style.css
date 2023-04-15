@@ -434,6 +434,8 @@
   width: 3.2rem;
   background-color: #fdf2e9;
   margin-bottom: 3.2rem;
+  padding: 1.26rem;
+  border-radius: 50%;
 }
 
 .feature-title {
