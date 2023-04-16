@@ -471,8 +471,14 @@
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, red, #e67e22);
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
 
   /*temp*/
   height: 50rem;
+}
+
+.cta-text-box {
+}
+.cta-img-box {
+  background-image: url("../img/eating.jpg");
 }
