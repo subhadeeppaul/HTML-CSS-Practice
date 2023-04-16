@@ -480,12 +480,17 @@
 
 .cta-text-box {
   padding: 6.4rem;
-  color: #2e1907;
+  color: #45260a;
 }
 
 .cta .heading-secondary {
-  color: #2e1907;
+  color: #45260a;
   margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
 }
 
 .cta-img-box {
