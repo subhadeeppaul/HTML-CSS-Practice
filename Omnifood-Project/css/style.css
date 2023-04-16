@@ -520,6 +520,9 @@
 }
 
 .cta-form input {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .cta-form select {
