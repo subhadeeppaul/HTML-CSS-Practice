@@ -563,6 +563,12 @@
   width: 2.4rem;
 }
 
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #767676;
+}
+
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
