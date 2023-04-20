@@ -6,4 +6,7 @@ Instead,  1rem = 1em = 16px */
 /* ----------------- */
 
 @media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
 }
