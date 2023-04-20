@@ -39,7 +39,8 @@ SPACING SYSTEM (px)
 
 html {
   /* Font-size: 10px */
-  /* 10 */
+  /* 10px / 100px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
 }
 
