@@ -73,6 +73,11 @@ Instead,  1rem = 1em = 16px */
     grid-template-columns: 1fr;
   }
 
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
   .hero-img {
     width: 60%;
   }
