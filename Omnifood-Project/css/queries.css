@@ -64,4 +64,12 @@ Instead,  1rem = 1em = 16px */
 /* ----------------- */
 
 @media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+  }
 }
