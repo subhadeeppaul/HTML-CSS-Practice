@@ -13,4 +13,8 @@ Instead,  1rem = 1em = 16px */
   .heading-primary {
     font-size: 4.4rem;
   }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
