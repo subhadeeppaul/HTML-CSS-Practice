@@ -58,3 +58,10 @@ Instead,  1rem = 1em = 16px */
     padding: 9.6rem 3.2rem;
   }
 }
+
+/* ----------------*/
+/* Below 944px (Tablets) */
+/* ----------------- */
+
+@media (max-width: 59em) {
+}
