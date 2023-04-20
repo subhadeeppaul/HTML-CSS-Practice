@@ -19,9 +19,13 @@ Instead,  1rem = 1em = 16px */
   }
 }
 
-* ----------------*/
+/* ----------------*/
 /* Below 1200px (Landscape Tablets) */
 /* ----------------- */
 
 @media (max-width: 75em) {
+  html {
+    /* 9px /16px = 56.25% */
+    font-size: 56.25%;
+  }
 }
