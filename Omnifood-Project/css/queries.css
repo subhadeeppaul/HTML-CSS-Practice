@@ -18,3 +18,10 @@ Instead,  1rem = 1em = 16px */
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+* ----------------*/
+/* Below 1200px (Landscape Tablets) */
+/* ----------------- */
+
+@media (max-width: 75em) {
+}
