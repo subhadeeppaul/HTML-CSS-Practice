@@ -104,4 +104,8 @@ Instead,  1rem = 1em = 16px */
   .section-testimonials {
     grid-template-columns: 1fr;
   }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
