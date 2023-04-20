@@ -9,4 +9,8 @@ Instead,  1rem = 1em = 16px */
   .hero {
     max-width: 120rem;
   }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
 }
