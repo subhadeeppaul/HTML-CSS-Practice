@@ -110,7 +110,7 @@ Instead,  1rem = 1em = 16px */
   }
 
   .cta {
-    /*  3/5 = 60% +2/5 = 40% */
+    /*  3/5 = 60% + 2/5 = 40% */
     grid-template-columns: 3fr 2fr;
   }
 
