@@ -140,7 +140,7 @@ Instead,  1rem = 1em = 16px */
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
 
     /* Hide Navigation */
     /* Allows No transition at all */
