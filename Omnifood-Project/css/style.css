@@ -57,6 +57,9 @@
 /* Mobile */
 
 .btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
 }
 
 .icon-mobile-nav {
