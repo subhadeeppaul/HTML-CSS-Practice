@@ -138,11 +138,16 @@ Instead,  1rem = 1em = 16px */
 
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
   }
 
   .main-nav-list {
     flex-direction: column;
     gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
   }
 }
