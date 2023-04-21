@@ -139,6 +139,12 @@ Instead,  1rem = 1em = 16px */
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* Hide Navigation */
+    /* Allows No transition at all */
+    /* display: none; */
+
+    opacity: 0;
   }
 
   .main-nav-list {
