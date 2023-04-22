@@ -14,3 +14,5 @@ Having created the website from scratch, I learned how to create and implement f
 - Utilized grid, flexbox and absolute positioning
 
 ![Website-Demo](https://github.com/subhadeeppaul/HTML-CSS-Practice/blob/main/Omnifood-Project/Website-demo.gif)
+
+>Inspired by Jonas Schmedtmann
