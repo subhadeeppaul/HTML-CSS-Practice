@@ -191,4 +191,9 @@ Instead,  1rem = 1em = 16px */
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .diets {
+    grid-column: 1/-1;
+    justify-self: center;
+  }
 }
