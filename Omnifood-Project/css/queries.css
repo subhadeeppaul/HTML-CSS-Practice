@@ -208,4 +208,8 @@ Instead,  1rem = 1em = 16px */
   .grid--footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .nav-col {
+    grid-row: 1;
+  }
 }
