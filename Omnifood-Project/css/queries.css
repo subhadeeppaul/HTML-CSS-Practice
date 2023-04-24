@@ -248,4 +248,8 @@ Instead,  1rem = 1em = 16px */
   .hero {
     padding: 0 3.2rem;
   }
+
+  .hero-img {
+    width: 80%;
+  }
 }
