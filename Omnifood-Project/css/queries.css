@@ -204,4 +204,8 @@ Instead,  1rem = 1em = 16px */
   .pricing-plan {
     width: 100%;
   }
+
+  .grid--footer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
