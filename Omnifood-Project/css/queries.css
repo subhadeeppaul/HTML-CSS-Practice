@@ -209,6 +209,11 @@ Instead,  1rem = 1em = 16px */
     grid-template-columns: repeat(6, 1fr);
   }
 
+  .logo-col,
+  .address-col {
+    grid-column: span 3;
+  }
+
   .nav-col {
     grid-row: 1;
     grid-column: span 2;
