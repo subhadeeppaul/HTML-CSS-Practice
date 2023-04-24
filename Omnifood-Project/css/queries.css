@@ -256,4 +256,7 @@ Instead,  1rem = 1em = 16px */
   .logos img {
     height: 1.2rem;
   }
+
+  .step-img-box:nth-child(2) {
+  }
 }
