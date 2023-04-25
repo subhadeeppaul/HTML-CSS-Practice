@@ -27,7 +27,8 @@ allLinks.forEach(function(link){
 
         if (href !== "#" && href.startsWith("#")) {
             const sectionEl = document.querySelector(href);
-            console.log(sectionEl);
+            // console.log(sectionEl);
+            sectionEl.scrollIntoView({behavior: "smooth"});
         }
 
 
