@@ -38,3 +38,13 @@ allLinks.forEach(function(link){
             headerEl.classList.toggle("nav-open");
     });
 });
+
+/////////////////////////////////////////////////
+// Sticky navigation
+
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(function(){},{
+    root: null
+})
+obs.observe(sectionHeroEl);
